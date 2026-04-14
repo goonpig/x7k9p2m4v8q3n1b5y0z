@@ -1,0 +1,79 @@
+===============================================
+RANDOM REPO NAME: x7k9p2m4v8q3n1b5y0z
+===============================================
+
+STEP 1: Install Git (if not already installed)
+- Download from: https://git-scm.com/downloads
+- Install with default settings
+
+STEP 2: Open Command Prompt (cmd) and run these commands in order:
+
+---
+
+cd C:\Users\wolfp\Downloads\SPINNER MEDIA
+
+git init
+
+git config user.email "your@email.com"
+git config user.name "Your Name"
+
+git add .
+
+git commit -m "Initial upload"
+
+git branch -M main
+
+git remote add origin https://github.com/ANONYMOUS_USER/x7k9p2m4v8q3n1b5y0z.git
+
+git push -u origin main
+
+---
+
+===============================================
+TO UPDATE MEDIA LATER (add/remove files):
+===============================================
+
+STEP 1: Delete old files from the folder that you no longer want
+
+STEP 2: Add new files to: C:\Users\wolfp\Downloads\SPINNER MEDIA
+
+STEP 3: Run these commands:
+
+---
+
+cd C:\Users\wolfp\Downloads\SPINNER MEDIA
+
+git add .
+
+git commit -m "Update media"
+
+git push -u origin main
+
+---
+
+===============================================
+IMPORTANT NOTES:
+===============================================
+
+1. Replace "your@email.com" and "Your Name" with your actual GitHub email/name
+
+2. Before pushing, you need to create the repo on GitHub.com:
+   - Go to: https://github.com/new
+   - Repository name: x7k9p2m4v8q3n1b5y0z
+   - Make it PRIVATE (important!)
+   - Don't add README or .gitignore
+   - Click "Create repository"
+   - Copy the URL shown and replace "ANONYMOUS_USER/x7k9p2m4v8q3n1b5y0z" in the commands above
+
+3. The repo URL will look like:
+   https://github.com/YOUR_USERNAME/x7k9p2m4v8q3n1b5y0z
+
+4. After creating the repo, update content.js with your actual repo URL:
+   - Edit: C:\Users\wolfp\Downloads\Mir's Drainer (1)\Mir's Drainer\content.js
+   - Line 24: Change 'YOUR_USERNAME/YOUR_REPO' to your actual username/repo
+
+===============================================
+EXAMPLE - Full commands after creating repo on GitHub:
+===============================================
+
+git remote add origin https://github.com/YOUR_ACTUAL_USERNAME/x7k9p2m4v8q3n1b5y0z.git
